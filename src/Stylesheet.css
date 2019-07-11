@@ -1,0 +1,39 @@
+body {
+    max-width:580px;
+    margin:auto;
+    padding:10px;
+    position:relative;
+    background: #fdfdfd;
+  }
+  .header {
+    margin:5px 10px 0;
+    color:#d46e58;
+    display:inline-block;
+  }
+  /* table,tr {
+    border: 1px solid black;
+  } */
+ 
+  table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+  
